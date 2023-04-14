@@ -33,6 +33,8 @@
         loop: true,
         nav: false,
         dots: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         items: 1,
         dotsData: true,
     });
