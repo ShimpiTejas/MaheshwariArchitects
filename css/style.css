@@ -62,9 +62,11 @@ h6,
 }
 
 .btn-socials {
-    width: 45px;
-    height:45px;
-}
+    font-size: 50px; 
+    position: absolute;
+    bottom: 10px; 
+    right: 20px;
+    }
 
 .btn-sm-square {
     width: 32px;
@@ -77,7 +79,6 @@ h6,
 }
 
 .btn-square,
-.btn-socials,
 .btn-sm-square,
 .btn-lg-square {
     padding: 0;
@@ -92,7 +93,7 @@ h6,
     border-color: #777777;
 }
 
-.btn-socials.btn-outline-body {
+.btn-socials{
     color: whitesmoke;
 }
 
@@ -192,11 +193,6 @@ h6,
             height: 15px;
             width: 15px;
         }
-
-        .btn-socials {
-            width: 30px;
-            height: 30px;
-        }
     }
 }
 
@@ -243,7 +239,7 @@ h6,
     width: 60px;
     height: 100%;
     top: 0;
-    right: 30px;
+    right: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -294,34 +290,6 @@ h6,
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
-}
-
-
-/*** Facts ***/
-.fact-item .fact-icon {
-    width: 120px;
-    height: 120px;
-    margin-top: -60px;
-    margin-bottom: 1.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: #FFFFFF;
-    border-radius: 120px;
-    transition: .5s;
-}
-
-.fact-item:hover .fact-icon {
-    background: var(--dark);
-}
-
-.fact-item .fact-icon i {
-    color: var(--primary);
-    transition: .5;
-}
-
-.fact-item:hover .fact-icon i {
-    color: #FFFFFF;
 }
 
 
@@ -479,7 +447,7 @@ h6,
 /*** Footer ***/
 
 .footer .copyright {
-    padding: 25px 0;
+    padding: 5px 0;
     font-size: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
