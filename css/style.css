@@ -322,6 +322,20 @@ h6,
     z-index: -1;
 }
 
+/*** Project ***/
+.project .nav .nav-link {
+    background: var(--light);
+    transition: .5s;
+}
+
+.project .nav .nav-link.active {
+    background: var(--primary);
+}
+
+.project .nav .nav-link.active h3 {
+    color: #FFFFFF !important;
+}
+
 
 /*** Service ***/
 .service-item .bg-img {
@@ -364,21 +378,6 @@ h6,
 
 .service-item:hover .btn {
     width: 140px;
-}
-
-
-/*** Project ***/
-.project .nav .nav-link {
-    background: var(--light);
-    transition: .5s;
-}
-
-.project .nav .nav-link.active {
-    background: var(--primary);
-}
-
-.project .nav .nav-link.active h3 {
-    color: #FFFFFF !important;
 }
 
 /*** Testimonial ***/
