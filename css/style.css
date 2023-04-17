@@ -292,6 +292,33 @@ h6,
     text-transform: uppercase;
 }
 
+/*** Facts ***/
+.fact-item .fact-icon {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 120px;
+    transition: .5s;
+}
+
+.fact-item:hover .fact-icon {
+    background: var(--dark);
+}
+
+.fact-item .fact-icon i {
+    color: var(--primary);
+    transition: .5;
+}
+
+.fact-item:hover .fact-icon i {
+    color: #FFFFFF;
+}
+
 
 /*** About ***/
 
