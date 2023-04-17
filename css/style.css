@@ -490,8 +490,13 @@ h6,
 .testimonial-carousel .owl-dots .owl-dot.active img {
     opacity: 1;
 }
-
-
+/*** Details Section ***/   
+.modal-dialog {
+    max-width: none;
+    width: fit-content;
+  }
+  
+  
 /*** Footer ***/
 
 .footer .copyright {
