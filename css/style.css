@@ -545,6 +545,7 @@ h6,
 .modal-dialog {
     max-width: none;
     width: fit-content;
+    height: fit-content;
   }
   
   

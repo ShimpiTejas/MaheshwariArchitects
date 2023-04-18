@@ -71,5 +71,15 @@
           $('#service-modal3').modal('show');
         });
       });
+    $(document).ready(function() {
+        $('#btn5').click(function() {
+          $('#service-modal4').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn6').click(function() {
+          $('#service-modal5').modal('show');
+        });
+      });
 })(jQuery);
 
