@@ -525,7 +525,9 @@ h6,
     width: fit-content;
     height: fit-content;
   }
-  
+/***#service-modal-label{
+    align-items: center;
+}***/
   
 /*** Footer ***/
 
@@ -542,3 +544,4 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
