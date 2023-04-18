@@ -51,6 +51,35 @@
         dotsData: true,
     });
 
-    
+    $(document).ready(function() {
+        $('#btn1').click(function() {
+          $('#service-modal').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn2').click(function() {
+          $('#service-modal1').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn3').click(function() {
+          $('#service-modal2').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn4').click(function() {
+          $('#service-modal3').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn5').click(function() {
+          $('#service-modal4').modal('show');
+        });
+      });
+    $(document).ready(function() {
+        $('#btn6').click(function() {
+          $('#service-modal5').modal('show');
+        });
+      });
 })(jQuery);
 
