@@ -33,7 +33,7 @@ This website includes the following features:
 +Contact form with validation
 
 # Credits
-This website was built by [Your Name] using the Bootstrap framework. Special thanks to the following resources:
+This website was built by @ShimpiTejas,@Aakash1008,@Kushal-Agrawal-11 using the Bootstrap framework. Special thanks to the following resources:
 
 +Bootstrap: https://getbootstrap.com/
 
