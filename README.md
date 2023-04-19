@@ -34,6 +34,9 @@ This website includes the following features:
 
 # Credits
 This website was built by [Your Name] using the Bootstrap framework. Special thanks to the following resources:
+
 +Bootstrap: https://getbootstrap.com/
+
 +Font Awesome: https://fontawesome.com/
+
 +Google Fonts: https://fonts.google.com/
