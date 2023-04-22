@@ -193,10 +193,16 @@ h6,
     }
 }
 
+.navbar .text-primary {
+    font-size: 45px;
+    color: #F8F8F8 !important;
+}
+
 
 @media (max-width: 460px){
     .navbar .text-primary {
         font-size: medium;
+        color: #F8F8F8 !important;
     }
 
     .navbar img {
@@ -316,10 +322,12 @@ h6,
 
 /*** Section Title ***/
 .section-title {
-    color: var(--primary);
+    color: var(--light);
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
+    background-color: #252525;
+    
 }
 
 /*** Facts ***/
@@ -334,6 +342,7 @@ h6,
     background: #FFFFFF;
     border-radius: 120px;
     transition: .5s;
+    color: var(--light) !important;
 }
 
 .fact-item:hover .fact-icon {
@@ -575,3 +584,27 @@ h6,
 .display-5 {
     color: #F8F8F8 !important;
 }
+
+
+/* Added to make every page black background */
+
+.bodyMain{
+    background-color: #252525 !important;
+}
+
+.container-xxl{
+    background-color: #252525 !important;
+}
+
+
+.m-0{
+    color: #F8F8F8;
+    
+}
+
+.mb-3{
+    color: #F8F8F8;
+}
+
+
+
