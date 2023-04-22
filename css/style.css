@@ -572,8 +572,8 @@ h6,
 /* added css for contact page */
 
 .contactPageForm{
-    /* background-color: #252525 !important; */
-    background-image: linear-gradient(to bottom, #252525, #F8F8F8) !important;
+    background-color: #252525 !important;
+    /* background-image: linear-gradient(to bottom, #252525, #F8F8F8) !important; */
     
 }
 
