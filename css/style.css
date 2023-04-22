@@ -1,8 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #B78D65;
+    --primary: #F8F8F8;
     --light: #F8F8F8;
     --dark: #252525;
+}
+
+
+
+.body{
+    background-color: var(--dark) !important;
 }
 
 h1,
@@ -105,6 +111,13 @@ h6,
 
 
 /*** Navbar ***/
+
+.navbar{
+    color: var(--light) !important;
+    background-color: #252525 !important;
+    position: static !important;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -112,6 +125,7 @@ h6,
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    color: var(--light);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -121,6 +135,7 @@ h6,
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
+    color: var(--light);
 }
 
   /* Underline link button */
@@ -545,3 +560,18 @@ h6,
     color: var(--primary);
 }
 
+/* added css for contact page */
+
+.contactPageForm{
+    /* background-color: #252525 !important; */
+    background-image: linear-gradient(to bottom, #252525, #F8F8F8) !important;
+    
+}
+
+.contactPage{
+    background-color: #252525 !important;
+}
+
+.display-5 {
+    color: #F8F8F8 !important;
+}
