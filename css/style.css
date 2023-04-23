@@ -103,10 +103,11 @@ h6,
     color: whitesmoke;
 }
 
+
 .btn-outline-body:hover {
     color: #FFFFFF;
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #777777;
+    border-color: #777777;
 }
 
 
