@@ -523,7 +523,7 @@ h6,
     content: "\f10d";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--primary);
+    color: var(--dark);
     background: #FFFFFF;
     border-radius: 40px;
     transition: .5s;
