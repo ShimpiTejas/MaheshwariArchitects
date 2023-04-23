@@ -463,7 +463,7 @@ h6,
   
   .card:hover .card-img-overlay {
     opacity: 1;
-    background-image: linear-gradient(to bottom left, rgba(0,0,1,0.5) 0%, rgba(0,0,0.5,1) 100%); /* Add linear gradient */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%); /* Add linear gradient */
 }
 
 
@@ -484,7 +484,6 @@ h6,
 
 .service-item:hover .service-text {
     background: rgba(0, 0, 0, .7);
-    
 }
 
 .service-item * {
