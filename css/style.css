@@ -268,7 +268,6 @@ h6,
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .5);
 }
 
 #video-carousel{
@@ -599,8 +598,8 @@ h6,
 /* added css for contact page */
 
 .contactPageForm{
-    /* background-color: #252525 !important; */
-    background-image: linear-gradient(to bottom, #252525, #F8F8F8) !important;
+    background-color: #252525 !important;
+    /* background-image: linear-gradient(to bottom, #252525, #F8F8F8) !important; */
     
 }
 
