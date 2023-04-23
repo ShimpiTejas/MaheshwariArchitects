@@ -155,7 +155,8 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #777777;
+
 }
 
 .navbar.sticky-top {
