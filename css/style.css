@@ -338,8 +338,20 @@ h6,
     opacity: 1;
 }
 
-.page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+.page-header-about {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p6.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header-work {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p7.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header-service {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p4.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header-contact {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p2.jpg) center center no-repeat;
     background-size: cover;
 }
 
