@@ -365,11 +365,11 @@ h6,
 }
 
 .card-text-1 {
-    font-size: 250px;
+    font-size: 100px;
     /* Custom text size for large screens */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 770px) {
 
     /* Apply display-1 class for small screens */
     .card-text-1 {
