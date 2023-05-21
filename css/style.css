@@ -388,6 +388,9 @@ h6,
     background-image: url(../img/about.png);
 }
 
+.text-justify {
+    text-align: justify;
+}
 
 /*** Project ***/
 .card .card-img-top {
