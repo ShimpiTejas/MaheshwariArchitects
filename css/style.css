@@ -278,10 +278,6 @@ h6,
     align-items: center;
 }
 
-#video-carousel {
-    height: 99.27%;
-}
-
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -369,106 +365,7 @@ h6,
 }
 
 
-/*** Section Title ***/
-.section-title {
-    color: var(--light);
-    font-weight: 600;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    background-color: #252525;
-
-}
-
-/*** Facts ***/
-.fact-item .fact-icon {
-    width: 120px;
-    height: 120px;
-    margin-top: -60px;
-    margin-bottom: 1.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: #FFFFFF;
-    border-radius: 120px;
-    transition: .5s;
-    color: var(--light) !important;
-}
-
-.fact-item:hover .fact-icon {
-    background: var(--dark);
-}
-
-.fact-item .fact-icon i {
-    color: var(--primary);
-    transition: .5;
-}
-
-.fact-item:hover .fact-icon i {
-    color: #FFFFFF;
-}
-
-
-/*** About ***/
-
-.about-img,
-.feature-img {
-    position: relative;
-    height: 100%;
-    min-height: 400px;
-}
-
-.about-img img,
-.feature-img img {
-    position: absolute;
-    width: 60%;
-    height: 80%;
-    object-fit: cover;
-}
-
-.about-img img:last-child,
-.feature-img img:last-child {
-    margin: 20% 0 0 40%;
-}
-
-.about-img::before,
-.feature-img::before {
-    position: absolute;
-    content: "";
-    width: 60%;
-    height: 80%;
-    top: 10%;
-    left: 20%;
-    border: 5px solid var(--primary);
-    z-index: -1;
-}
-
-
 /*** Project ***/
-.projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
-.projects-container .projects-box {
-    position: relative;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--dark);
-    overflow: hidden;
-    display: flex;
-}
-
-.projects-box img {
-    width: 100%;
-    height: 300px;
-    transition: .5s ease;
-}
-
-.projects-box:hover img {
-    transform: scale(1.1);
-}
-
 .card .card-img-top {
     transition: opacity 0.3s ease-in-out;
 }
@@ -490,18 +387,21 @@ h6,
 
 
 /*** Service ***/
-.service-item .bg-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
 
 .service-item .service-text {
     background: var(--light);
     transition: .5s;
     width: 100%;
+}
+
+#service_names {
+
+    color: #252525;
+}
+
+.service-item:hover #service_names {
+
+    color: whitesmoke;
 }
 
 .service-item:hover .service-text {
@@ -512,98 +412,6 @@ h6,
     transition: .5;
 }
 
-.service-item:hover * {
-    color: #FFFFFF;
-}
-
-.service-item .btn {
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    color: var(--dark);
-    background: #FFFFFF;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.service-item:hover .btn {
-    width: 140px;
-}
-
-/*** Testimonial ***/
-.testimonial-carousel {
-    display: flex !important;
-    flex-direction: column-reverse;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.testimonial-carousel .owl-dots {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.testimonial-carousel .owl-dots .owl-dot {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin: 0 5px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active {
-    width: 100px;
-    height: 100px;
-}
-
-.testimonial-carousel .owl-dots .owl-dot::after {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "\f10d";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: var(--dark);
-    background: #FFFFFF;
-    border-radius: 40px;
-    transition: .5s;
-    opacity: 0;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active::after {
-    opacity: 1;
-}
-
-.testimonial-carousel .owl-dots .owl-dot img {
-    opacity: .4;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active img {
-    opacity: 1;
-}
-
-/*** Details Section ***/
-.modal-dialog {
-    max-width: none;
-    width: fit-content;
-    height: fit-content;
-}
-
-/***#service-modal-label{
-    align-items: center;
-}***/
 
 /*** Footer ***/
 
