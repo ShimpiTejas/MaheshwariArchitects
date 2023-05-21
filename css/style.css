@@ -212,6 +212,10 @@ h6,
         color: #F8F8F8 !important;
     }
 
+    .header-carousel .owl-dots .owl-dot {
+        display: none;
+    }
+
     #monogram1 {
         height: 40px;
         width: 40px;
