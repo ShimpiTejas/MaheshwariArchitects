@@ -375,6 +375,12 @@ h6,
     color: var(--light);
 }
 
+/*** About ***/
+
+.about-bg-img {
+    background-image: url(../img/about.png);
+}
+
 
 /*** Project ***/
 .card .card-img-top {
