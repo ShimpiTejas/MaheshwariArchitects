@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F8F8F8;
-    --light: #F8F8F8;
+    --primary: #F5F5F5;
+    --light: #F5F5F5;
     --dark: #252525;
 }
 
@@ -361,15 +361,18 @@ h6,
 }
 
 .card-text-1 {
-    font-size: 250px; /* Custom text size for large screens */
-  }
-  
-  @media (max-width: 1000px) {
+    font-size: 250px;
+    /* Custom text size for large screens */
+}
+
+@media (max-width: 1000px) {
+
     /* Apply display-1 class for small screens */
     .card-text-1 {
-      font-size: 50px; /* Reset font size to inherit from the display-1 class */
+        font-size: 50px;
+        /* Reset font size to inherit from the display-1 class */
     }
-  }
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -411,6 +414,11 @@ h6,
     width: 100%;
 }
 
+.service-item #service_white {
+
+    display: none;
+}
+
 #service_names {
 
     color: #252525;
@@ -419,6 +427,14 @@ h6,
 .service-item:hover #service_names {
 
     color: whitesmoke;
+}
+
+.service-item:hover #service_white {
+    display: unset;
+}
+
+.service-item:hover #service_black {
+    display: none;
 }
 
 .service-item:hover .service-text {
