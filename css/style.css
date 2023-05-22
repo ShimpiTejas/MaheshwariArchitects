@@ -386,7 +386,9 @@ h6,
 
 .about-bg-img {
     background-image: url(../img/about.png);
+    
 }
+
 
 .text-justify {
     text-align: justify;
@@ -395,6 +397,7 @@ h6,
 .text-justify2 {
     text-align: center;
 }
+
 
 /*** Project ***/
 .card .card-img-top {
