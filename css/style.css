@@ -390,6 +390,15 @@ h6,
 }
 
 
+.text-justify {
+    text-align: justify;
+}
+
+.text-justify2 {
+    text-align: center;
+}
+
+
 /*** Project ***/
 .card .card-img-top {
     transition: opacity 0.3s ease-in-out;
