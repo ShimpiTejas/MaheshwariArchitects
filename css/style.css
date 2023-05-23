@@ -386,6 +386,7 @@ h6,
 
 .about-bg-img {
     background-image: url(../img/about.png);
+    border-radius: 4px;
 
 }
 
@@ -457,6 +458,7 @@ h6,
 
 .service-item * {
     transition: .5;
+    border-radius: 4px;
 }
 
 
