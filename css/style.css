@@ -386,7 +386,8 @@ h6,
 
 .about-bg-img {
     background-image: url(../img/about.png);
-    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
