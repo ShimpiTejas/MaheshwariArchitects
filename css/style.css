@@ -115,6 +115,32 @@ h6,
     border-color: #777777;
 }
 
+/* Carousel media queries */
+@media (max-width: 567px) {
+    .header-carousel {
+        height: 100% !important;
+        margin: 0px !important;
+        width: 100% !important;
+
+    }
+    .header-carousel .owl-carousel-item img {
+        
+        width: 100% !important;
+        object-fit: contain !important;
+        margin: 0% !important;
+
+    }
+    .carousel-new-css{
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+  
+  
+}
+
+
+
 
 /*** Navbar ***/
 
@@ -285,7 +311,7 @@ h6,
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
-        min-height: 500px;
+        min-height: 250px !important;
     }
 
     .header-carousel .owl-carousel-item img {

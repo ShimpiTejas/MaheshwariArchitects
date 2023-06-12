@@ -29,6 +29,7 @@
   // Header carousel
   $(".header-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout : 6000,
     smartSpeed: 1500,
     loop: true,
     nav: false,
@@ -38,6 +39,7 @@
     items: 1,
     dotsData: true,
   });
+
 
 
 })(jQuery);
