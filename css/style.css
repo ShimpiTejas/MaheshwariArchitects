@@ -123,23 +123,25 @@ h6,
         width: 100% !important;
 
     }
+
     .header-carousel .owl-carousel-item img {
-        
+
         width: 100% !important;
         object-fit: contain !important;
         margin: 0% !important;
 
     }
-    .carousel-new-css{
+
+    .carousel-new-css {
         height: 100% !important;
         width: 100% !important;
         object-fit: contain !important;
     }
-  
-    .email-contanct-page{
+
+    .email-contanct-page {
         font-size: medium !important;
     }
-  
+
 }
 
 
@@ -374,22 +376,22 @@ h6,
 }
 
 .page-header-about {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p6.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/header_about_work.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-work {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p7.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/header_about_work.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-service {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p4.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/header_services.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-contact {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/p2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/header_contact.jpg) center center no-repeat;
     background-size: cover;
 }
 
