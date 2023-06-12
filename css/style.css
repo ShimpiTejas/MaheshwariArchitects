@@ -136,6 +136,9 @@ h6,
         object-fit: contain !important;
     }
   
+    .email-contanct-page{
+        font-size: medium !important;
+    }
   
 }
 
