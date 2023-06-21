@@ -430,7 +430,9 @@ h6,
 .text-justify2 {
     text-align: center;
 }
-
+.container-fluid {
+    overflow-x: hidden;
+  }
 
 /*** Project ***/
 .card .card-img-top {
